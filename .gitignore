@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+.ipynb_checkpoints/
+
+# Datasets and pretrained models are downloaded separately.
+data/**
+!data/**/
+!data/**/.gitkeep
+pretrained/**
+!pretrained/**/
+!pretrained/**/.gitkeep
+
+# Training outputs
+*.pth
+*.pt
+*.ckpt
+saved_models/
+logs/
+runs/
